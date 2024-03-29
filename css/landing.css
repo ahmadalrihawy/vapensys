@@ -1078,16 +1078,21 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+
+
   gap: 75px;
 }
 .contact-us .contact-us-info .right-section .right-inputs {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+
   gap: 65px;
 }
 .contact-us .contact-us-info .right-section .right-inputs .rightInput {
+  transform: translateY(10px);
+}
+.contact-us .contact-us-info .right-section .left-input {
   transform: translateY(10px);
 }
 @media (max-width: 776px) {
@@ -1235,7 +1240,7 @@ body {
   background-color: var(--bg-300);
   border: none;
   outline: none;
-  font-size: 45px;
+  font-size: 35px;
   color: var(--text-100);
 }
 .footer-content span::after {
