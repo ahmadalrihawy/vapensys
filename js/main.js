@@ -1,3 +1,11 @@
+window.onresize = function(){
+  if (screen.width <= 768){
+  location.href = "mobile.html"
+  } else{
+  location.href = "index.html"
+  }
+}
+
 let menu = document.querySelector(".header-menu");
 let mainMenu = document.querySelector(".menu");
 let visionP = document.querySelectorAll(".vision-p");
